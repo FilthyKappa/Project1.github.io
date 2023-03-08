@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accounting for Materials</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "index.css">
+</head>
+<body>
+    <h1 align="center">Standard Costing </h1>
+    <br>
+    <br>
+    <div class="newcalss"></div>
+    <table bgcolor="#e6e5e3" align="center">
+        <tr bgcolor="grey" align="center">
+            <th width="100">S.N</th>
+            <th width="100">Qty</th>
+            <th width="100">Price</th>
+            <th width="100">Result</th>
+        </tr>
+        <tr bgcolor="grey" align="center">
+           <td>A</td>
+           <td id="s1"></td>
+           <td id="p1"></td>
+           <td id="r1"></td>
+        </tr>
+        <tr bgcolor="grey" align="center">
+            <td>B</td>
+            <td id="s2"></td>
+            <td id="p2"></td>
+            <td id="r2"></td>   
+        </tr>
+        <tr bgcolor="grey" align="center">
+            <td>C</td>
+            <td id="s3"></td>
+            <td id="p3"></td>
+            <td id="r3"></td>
+        </tr>
+    </table><br>
+    <br>
+    <br>
+    <div class="standard-inputs" align="center">
+        <div class="stdqty">
+            <label for="sq" style="color:white">Standard Quantity</label>
+            <input id="sq">
+        </div>
+        <div class="stdpri"> 
+            <label for="sp" style="color:white">Standard Price</label>
+            <input id="sp">
+        </div>
+        <div class="acqty">
+            <label for="aq" style="color:white">Actual Quantity</label>
+            <input id="aq">
+        </div>
+        <div class="acpri">
+            <label for="ap" style="color:white">Actual Price</label>
+            <input id="ap">
+        </div>
+        
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="buttons" align="center">
+        <div class="calmuv">
+            <button id="muvb" class="b1">Calculate MUV</button>
+            <label id="muva" style="color:white"></label>
+        </div>
+        <div class="calmpv">
+            <button id="mpvb" class="b2">Calculate MPV</button>
+            <label id="mpva" class="b3" style="color:white"></label>
+        </div>
+        <div class="calmcv">
+            <button id="mcvb">Calculate MCV</button>
+            <label id="mcva" style="color:white"></label>
+        </div>
+    </div>
+   
+<script src="index.js"></script>
+</body>
+</html>

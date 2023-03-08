@@ -1,0 +1,52 @@
+body{
+    background-color:red;
+}
+h1{
+    font-family:"Tilt Warp";
+    color:white;
+}
+label{
+    color:black;
+}
+.stdqty{
+    font-family: "Tilt Warp";
+}
+.stdpri{
+    font-family: "Tilt Warp";
+}
+.acqty{
+    font-family: "Tilt Warp";
+}
+.acpri{
+    font-family: "Tilt Warp";
+}
+table{
+    color:white;
+}
+#mpvb{
+   background-color: #e00022;
+   color:white;
+   font-family: "Tilt Warp";
+   border-color: white;
+}
+#mcvb{
+    background-color: #e00022;
+    color:white;
+    font-family: "Tilt Warp";
+    border-color: white;
+}
+#muvb{
+    background-color: #e00022;
+    color:white;
+    font-family: "Tilt Warp";
+    border-color: white;
+}
+#mcva{
+    font-family: "Tilt Warp";
+}
+#muva{
+    font-family: "Tilt Warp";
+}
+#mpva{
+    font-family: "Tilt Warp";
+}
