@@ -12,8 +12,11 @@ document.getElementById("muvb").onclick = function(){
     if(muv<0){
         muv = muv + " Unfavorable";
     }
-    else{
+    else if(muv>0){
         muv = muv + " favorable";
+    }
+    else{
+        window.alert("Enter a valid number");
     }
     document.getElementById("muva").innerHTML = muv;
 }
@@ -29,10 +32,13 @@ document.getElementById("mpvb").onclick = function(){
    document.getElementById("p2").innerHTML = p2;
    document.getElementById("r2").innerHTML = b;
    if(mpv<0){
-     mpv = mpv + " Unfavorable"
+     mpv = mpv + " Unfavorable";
+    }
+    else if(mpv>0){
+     mpv = mpv + " favorable";
     }
     else{
-     mpv = mpv + " favorable"
+        window.alert("Enter a valid number");
     }
    document.getElementById("mpva").innerHTML = mpv;
 }
@@ -48,10 +54,13 @@ document.getElementById("mcvb").onclick = function(){
     document.getElementById("p3").innerHTML = p3;
     document.getElementById("r3").innerHTML = c;
     if(mcv<0){
-        mcv = mcv + " Unfavorable"
+        mcv = mcv + " Unfavorable";
+    }
+    else if(mcv>0){
+        mcv = mcv + " favorable";
     }
     else{
-        mcv = mcv + " favorable"
+        window.alert("Enter a valid number");
     }
     document.getElementById("mcva").innerHTML = mcv;
 }
